@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kepler-chatbot"
+version = "0.1.0"
+description = "Conversation AI for Personal Use"
+authors = ["Abhinand B <abhinand@buyofuel.com>"]
+readme = "README.md"
+packages = [{include = "kepler_chatbot"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.155"
+openai = "^0.27.6"
+faiss-cpu = "^1.7.4"
+unstructured = "^0.6.2"
+pypdf = "^3.8.1"
+python-dotenv = "^1.0.0"
+tiktoken = "^0.3.3"
+pypdf2 = "^3.0.1"
+gradio = "^3.28.1"
+textract = "^1.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
